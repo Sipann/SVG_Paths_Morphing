@@ -4,8 +4,6 @@ exports.arcToAbsolute = (previous, current) => {
   let newCommand = [...current];
   if (newCommand[0] === 'a') {
     newCommand[0] = 'A';
-    // newCommand[1] = current[1] + previousX;
-    // newCommand[2] = current[2] + previousY;
     newCommand[6] = current[6] + previousX;
     newCommand[7] = current[7] + previousY;
   }
