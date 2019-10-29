@@ -1,0 +1,17 @@
+{
+  "name": "svg-paths-morphing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jsdom": "^15.2.0",
+    "svg-arc-to-cubic-bezier": "^3.2.0"
+  }
+}
