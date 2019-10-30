@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+      <defs>
+        <g id="frame">
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 0 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 10 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 20 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 30 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 40 h 100" />
+          <path stroke="rgba(0, 255, 0, .5)" stroke-width="2" d="M0 50 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 60 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 70 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 80 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 90 h 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M0 100 h 100" />
+  
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 0 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 10 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 20 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 30 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 40 0 v 100" />
+          <path stroke="rgba(0, 255, 0, .5)" stroke-width="2" d="M 50 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 60 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 70 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 80 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 90 0 v 100" />
+          <path stroke="rgba(0, 0, 0, .5)" stroke-width="2" d="M 100 0 v 100" />
+
+          <circle cx="50" cy="50" r="2" fill="green" />
+        </g>
+      </defs>
+
+      <use x="0" y="0" href="#frame" />
+      <g id="draw">
+        <path stroke="blue" stroke-width="2" fill="none" d="M 20 20 h 40 l 30 30 v 30 h -60 z" />
+      </g>
+    </svg>
