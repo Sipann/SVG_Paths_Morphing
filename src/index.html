@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <svg viewBox="0 0 100 100">
+      <defs>
+        <path svg-adapt svg-adapt-a d="M 10,30 A 20,20 0 0 1 50 30 A 20,20 0 0 1 90 30 Q 90,60 50 90 Q 10 60 10 30 z" />
+        <path svg-adapt svg-adapt-a d="M 80 50 A 30,30 0 0 1 20 50 A 30,30 0 0 1 80 50" />
+      </defs>
+      <path>
+        <animate class="svg-adapt-a"
+          attributeName="d"
+          dur="4s"
+          fill="freeze" />
+      </path>
+    </svg>
+  </div>
+</body>
+</html>
