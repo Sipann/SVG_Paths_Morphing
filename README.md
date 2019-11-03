@@ -73,11 +73,11 @@ This one will not (maybe someday).
 
 ## Process
 The current repo is set to preprocess the .html file at build time.
-Paths sent to the client therefore already fit the conditions to smoothly morph and do not need to be processed by the browser.
+Paths sent to the client therefore already fit the conditions to smoothly morph and do not need to be computed by the browser.
 
 
 ## Forwards
 * svg-morphing shall be adapted to morph polygon points.
 
 ## Demo
-Available on https://codepen.io/pen/?editors=1100
+Available on https://codepen.io/sipann/pen/YzzraLg
