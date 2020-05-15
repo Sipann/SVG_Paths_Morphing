@@ -1,8 +1,8 @@
 # svg-morphing
 
-svg-morphing package helps resolve the path length issue when animating svg from one shape to another by adjusting the paths command lines. 
+svg-morphing helps in resolving the path length issue when animating svg from one shape to another by adjusting the paths command lines. 
 
-## Context
+## Why
 Animating from 
 ```html
 <!-- heart -->
@@ -77,7 +77,9 @@ Paths sent to the client therefore already fit the conditions to smoothly morph 
 
 
 ## Forwards
-* svg-morphing shall be adapted to morph polygon points.
+* Adapt svg-morphing to morph polygon points.
+* Tackle SPA framework integration
+* Add tests
 
 ## Demo
 Available on https://codepen.io/sipann/pen/YzzraLg
